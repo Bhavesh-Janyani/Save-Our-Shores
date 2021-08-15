@@ -1,5 +1,4 @@
 :root{
-	/* --gradient:linear-gradient(140deg, #5846ff,#6b86ff,#ff6bdf, #f54c4c); */
 	--gradient:white;
 }
 *{
@@ -239,4 +238,15 @@ input[type=submit]:hover {
 .phone{
 	width: 100%;
 	padding-left:10px;
+}
+
+
+#donate{
+	background-color:#0D4AB2;
+	padding:10px;
+	color:white;
+	#092E6E;
+}
+#donate:hover{
+	background-color:#092E6E;
 }
