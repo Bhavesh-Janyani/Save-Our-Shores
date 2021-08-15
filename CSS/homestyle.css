@@ -1,5 +1,4 @@
 :root{
-	/* --gradient:linear-gradient(140deg, #5846ff,#6b86ff,#ff6bdf, #f54c4c); */
 	--gradient:white;
 }
 
@@ -206,3 +205,4 @@ header .navbar ul li a:hover{
 #donate:hover{
 	background-color:#092E6E;
 }
+
