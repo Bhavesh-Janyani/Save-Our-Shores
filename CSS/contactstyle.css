@@ -1,0 +1,242 @@
+:root{
+	/* --gradient:linear-gradient(140deg, #5846ff,#6b86ff,#ff6bdf, #f54c4c); */
+	--gradient:white;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    border:none; outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+.logo-img{
+    height: 65px;
+    cursor:pointer;
+}
+*::selection{
+    background:#f39c12;
+    color:#fff;
+}
+
+header span{
+	display:flex;
+	align-items:center;
+    justify-content: center;
+}
+.heading{
+    padding:1rem;
+    text-align: center;
+	line-height: 1.41em;
+    font-size: 22px;
+	font-family:'Times New Roman';
+	font-weight:bolder;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:0; left: 0;
+    z-index: 1000;
+    padding:1rem 5%;
+    background:var(--gradient);
+    box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300&display=swap');
+header .heading{
+    color:#0b48af;
+    font-size: 25px;
+    border-radius: 50%;
+	font-family:'Times New Roman';
+}
+header .navbar ul{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    list-style: none;
+    
+}
+header .navbar ul li{
+    margin:0 1rem;
+}
+header .navbar ul li a{
+    font-size: 2rem;
+    color:#0b48af;
+}
+header .navbar ul li a.active,
+header .navbar ul li a:hover{
+    color:#0b48af;
+}
+
+
+
+
+*{
+	margin:0;
+	padding:0;
+}
+.image img{
+	position:relative;
+	top: 0;
+	left: 0;
+	max-width: 100%;  
+	height: auto;
+}
+
+.tps{
+	display:flex;
+}
+.top-bottom-section{
+	width:50%;
+	display:flex;
+	margin-bottom:32px;
+}
+.section-container{
+	display:flex;
+	flex-direction:column;
+}
+.top-bottom-section .image{
+	width:100%;
+	display:flex;
+}
+.top-bottom-section .image img{
+	width: 500px;
+	/*
+	margin-left: auto;
+	margin-right: auto;*/
+	margin-top:70px;
+}
+.top-bottom-section .text{
+	display:flex;
+	flex-direction:column;
+	background-color:#fff;
+	padding-left:24px;
+	padding-right:24px;
+	padding-bottom:32px;
+	padding-top:30px;
+	color:#1e3932;
+	flex-grow:1;
+	font-size:16px;
+}
+.top-bottom-section:first-child{
+	margin-right:16px;
+	margin-left:250px;
+}
+.top-bottom-section:last-child{
+	margin-left:16px;
+	margin-right:250px;
+}
+.top-bottom-section .text h1{
+	font-size: 20px;
+	font-weight: 700;
+    letter-spacing: -.035em;
+    text-transform: uppercase;
+	line-height: 1.15;
+	color:#0D4AB2;
+	margin-bottom:24px;
+	/*text-align:center;	*/
+}
+.top-bottom-section .text h3{
+	font-size:19px;
+	line-height:1.75;
+	letter-spacing: -.035em;
+	font-size: 20px;
+	color: #092E6E;
+	font-family: "Proxima Nova",sans-serif;
+    font-weight: 300;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin-bottom:24px; 
+}
+.top-bottom-section .text p{
+	font-size:19px;
+	line-height:1.75;
+	letter-spacing: -.035em;
+	font-size: 20px;
+	color: #092E6E;
+	font-family: "Proxima Nova",sans-serif;
+    font-weight: 300;
+	/*text-align:center;*/	
+}
+
+
+.header2{
+	margin-top:40px;
+	padding-top:100px;
+	padding-bottom:100px;
+	padding-left:400px;
+	padding-right:400px;
+	background-color:#EFEEE7;
+}
+.line{
+	background-color:#0D4AB2;
+	height:4px;
+	width:200px;
+	text-align: center;
+	margin-left:250px;
+}
+.header2 p, .head{
+	margin:20px;
+	font-weight: 500;
+    line-height: .95;
+    text-align: center;
+    font-size: 50px;
+	color:#0D4AB2;
+}
+.header2 span{
+	font-family: "Proxima Nova",sans-serif;
+	font-weight: 700;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color:#0D4AB2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #092E6E;
+}
+.container {
+  border-radius: 10px;
+  color: #0D4AB2;
+  font-weight:900;
+  font-size:15px;
+}
+
+
+.required {
+  color: red;
+}
+.emphone{
+	display:flex;
+}
+.email{
+	width: 100%;
+	padding-right:10px;
+}
+.phone{
+	width: 100%;
+	padding-left:10px;
+}

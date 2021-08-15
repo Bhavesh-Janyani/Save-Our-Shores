@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="CSS/contactstyle.css">
+</head>
+
+<body>
+	
+	<header>
+		<span>
+		<img class="logo-img" src="IMAGES/logo.png" alt="logo">
+		<a href="#" class="heading">Save Our Shores</a>
+		</span>
+		<nav class="navbar">
+			<ul>
+				<li><a class="active" href="index.html">home</a></li>
+				<li><a href="about.html">about</a></li>
+				<li><a href="contact.html" target="_self">Contact</a></li>
+				<li><a href="donate.html" target="_self">Donate</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	
+	
+
+	<section class="contact" id="contact"> 
+		<div class="image">
+			<img class="empty_beach-img" src="IMAGES/empty_beach.png" alt="empty_beach">
+		</div>
+	</section>
+ 
+ 
+	<div class="header2">
+		<div class="line"></div>
+		<p>GET <span>IN TOUCH</span></p>
+		
+		
+		<div class="container">
+		  <form action="home.html">
+			<label for="fname">Name</label>
+			<span class="required">*</span>
+			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+			
+			<div class="emphone">
+				<div class="email">
+					<label for="email">Email</label>
+					<span class="required">*</span>
+					<input type="text" id="email" name="email" placeholder="Your Email..">
+				</div>
+				<div class="phone">
+					<label for="phone">Phone</label>
+					<span class="required">*</span>
+					<input type="text" id="phone" name="phone" placeholder="Your phone no..">
+				</div>
+			</div>
+			
+			<label for="country">Country</label>
+			<span class="required">*</span>
+			<select id="country" name="country">
+			  <option value="australia">India</option>
+			  <option value="canada">Canada</option>
+			  <option value="usa">USA</option>
+			  <option value="usa">Australia</option>
+			</select>
+
+			<label for="subject">Message</label>
+			<span class="required">*</span>
+			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+			<input type="submit" value="Submit" onclick="send();">
+		  </form>
+		</div>
+	</div>	
+
+	<p class="head">Want to get involved?<br>Contact us today.</p>
+ 
+	<div class="tps">
+		<div class="top-bottom-section">
+			<div class="section-container">
+				<div class="image">
+					<img class="map1-img" src="IMAGES/map1.jpg" alt="map1">
+				</div>
+				<div class="text">
+					<h1>The Ocean Cleanup HQ</h1>
+					<h3>POSTAL ADDRESS:<br>
+						Batavierenstraat 15<br>
+						4-7th floor<br>
+						3014 JH Rotterdam<br>
+						The Netherlands
+					</h3>
+					<p>To maintain our focus on our core mission, we can only welcome visitors by appointment.</p>
+				</div>
+			</div>				
+		</div>
+		<div class="top-bottom-section">
+			<div class="section-container">
+				<div class="image">
+					<img class="map2-img" src="IMAGES/map2.jpg" alt="map2">
+				</div>
+				<div class="text">
+					<h1>The Ocean Cleanup North Pacific Foundation</h1>
+					<h3>POSTAL ADDRESS:<br>
+						100 Wall Street, 10th Floor<br>
+						New York, NY 10005<br>
+						USA
+					</h3>
+					<p>No visitation possible. For more info, see the foundation details.</p>
+				</div>
+			</div>			
+		</div>
+	</div>
+	
+	<script>
+		function send(){
+		  alert("Your response has submitted");
+		}
+	</script>
+</body>
+</html>
