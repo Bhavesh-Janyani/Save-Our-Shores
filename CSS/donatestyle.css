@@ -1,5 +1,4 @@
 :root{
-	/* --gradient:linear-gradient(140deg, #5846ff,#6b86ff,#ff6bdf, #f54c4c); */
 	--gradient:white;
 }
 *{
@@ -73,17 +72,6 @@ header .navbar ul li a.active,
 header .navbar ul li a:hover{
     color:#0b48af;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 .donate1 img{
@@ -183,4 +171,15 @@ header .navbar ul li a:hover{
 .data form{
     position:relative;
     top:40px;
+}
+
+
+#donate{
+	background-color:#0D4AB2;
+	padding:10px;
+	color:white;
+	#092E6E;
+}
+#donate:hover{
+	background-color:#092E6E;
 }
